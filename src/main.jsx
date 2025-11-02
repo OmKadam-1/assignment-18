@@ -3,7 +3,7 @@ import './index.css'
 import Home from "./Home.jsx";
 import Contact from "./Contact.jsx";
 import About from "./About.jsx";
-import Navbar from "./Navbar.jsx";
+
 const root = createRoot(document.getElementById('root'));
 
 const path = window.location.pathname;
