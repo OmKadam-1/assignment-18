@@ -1,11 +1,16 @@
-import "./Home.css";
-import Navbar from "./Navbar.jsx";
-function Home() {
-    return (
-        <div className="home-container" >
-            <h1 className="heading">Home</h1>
-            <Navbar  />
-        </div>
-    )
+
+import "./About.css";
+import Navbar from "./Navbar";
+
+
+function About() {
+  return (
+    <div className="about-container"> 
+      <h1 className="heading">Home</h1>
+      <Navbar activeMenu="/home"/>
+
+    </div>
+  )
 }
-export default Home;
+
+export default About;

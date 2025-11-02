@@ -1,11 +1,16 @@
-import "./Contact.css";
-import Navbar from "./Navbar.jsx";
-function Contact() {
-    return (
-        <div className="contact-container" >
-            <h1 className="heading">Contact</h1>
-            <Navbar  />
-        </div>
-    )
+
+import "./About.css";
+import Navbar from "./Navbar";
+
+
+function About() {
+  return (
+    <div className="about-container"> 
+      <h1 className="heading">Contact</h1>
+      <Navbar activeMenu="/contact"/>
+
+    </div>
+  )
 }
-export default Contact;
+
+export default About;
