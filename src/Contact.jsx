@@ -4,7 +4,7 @@ function Contact() {
     return (
         <div className="contact-container" >
             <h1 className="heading">Contact</h1>
-            <Navbar activeMenu="contact" />
+            <Navbar  />
         </div>
     )
 }
