@@ -1,9 +1,9 @@
 
 import { createRoot } from 'react-dom/client';
 import './index.css';
-import Home from "./Home";
-import About from './About';
-import Contact from './Contact';
+import Home from "./Home.jsx";
+import About from './About.jsx';
+import Contact from './Contact.jsx';
 console.log( `You are on : ${window.location.pathname}`);
 
 const path = window.location.pathname;
