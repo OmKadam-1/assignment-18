@@ -1,9 +1,9 @@
 
-import "./About.css";
+import "./Home.css";
 import Navbar from "./Navbar";
 
 
-function About() {
+function Home() {
   return (
     <div className="about-container"> 
       <h1 className="heading">Home</h1>
@@ -13,4 +13,4 @@ function About() {
   )
 }
 
-export default About;
+export default Home;
