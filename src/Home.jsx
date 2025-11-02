@@ -5,7 +5,7 @@ import Navbar from "./Navbar";
 
 function Home() {
   return (
-    <div className="about-container"> 
+    <div className="home-container"> 
       <h1 className="heading">Home</h1>
       <Navbar activeMenu="/home"/>
 
