@@ -1,6 +1,5 @@
-
 import "./About.css";
-import Navbar from "./Navbar.jsx";
+import Navbar from "./Navbar";
 
 
 function About() {
