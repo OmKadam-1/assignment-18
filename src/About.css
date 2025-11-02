@@ -1,25 +1,12 @@
-
-
-.about-container {
-  background: linear-gradient(135deg, #141e30, #243b55); /* Deep blue gradient */
-  min-height: 100vh;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  font-family: 'Poppins', sans-serif;
-  padding: 20px;
+.about-container{
+    background-color: #fcd2e0;
+    min-height: 100vh;
+    margin: 0;
 }
 
-.about-heading {
-  font-size: 3rem;
-  font-weight: 700;
-  margin-bottom: 25px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+.about-heading{
+    color:#bf2853;
+     margin: 0;
+     text-align: center;
+     padding-top: 20px;
 }
-
-

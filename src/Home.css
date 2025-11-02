@@ -1,22 +1,15 @@
-
-.home-container {
-  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); /* Subtle gradient */
-  min-height: 100vh;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  font-family: 'Poppins', sans-serif;
+.home-container{
+    background-color: #fce4d0;
+    min-height: 100vh;
+    margin: 0;
 }
 
-.home-heading {
-  font-size: 3rem;
-  font-weight: 700;
-  margin-bottom: 30px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+.heading{
+    color:#E68f47;
+    margin: 0;
+    text-align: center;
+    padding-top: 20px;
 }
+/* 
 
+ */
