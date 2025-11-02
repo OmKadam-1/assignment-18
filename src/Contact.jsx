@@ -1,5 +1,5 @@
 import "./Contact.css";
-import Navbar from "./Navbar";
+import Navbar from "./Navbar.jsx";
 function Contact() {
     return (
         <div className="contact-container" >
