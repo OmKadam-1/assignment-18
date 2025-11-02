@@ -8,6 +8,7 @@ import About from "./About.jsx";
 const root = createRoot(document.getElementById('root'));
 
 const path = window.location.pathname;
+<Navbar/>
 console.log("Current path:", path);
 if (path === "/") {
   root.render(<Home/>)
