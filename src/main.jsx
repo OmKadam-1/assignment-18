@@ -1,8 +1,9 @@
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import Contact from "./Contact";
-import About from "./About"
-import Home from "./Home";
+import Home from "./home";
+import Contact from "./contact";
+import About from "./about";
+import Navbar from "./Navbar.jsx";
 const root = createRoot(document.getElementById('root'));
 
 const path = window.location.pathname;
