@@ -22,37 +22,3 @@
 }
 
 
-.contact-info {
-  max-width: 600px;
-  background-color: rgba(255, 255, 255, 0.1);
-  padding: 25px 30px;
-  border-radius: 15px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
-  margin-top: 20px;
-  line-height: 1.6;
-}
-
-.contact-info p {
-  font-size: 1.1rem;
-  margin: 10px 0;
-}
-
-.contact-info a {
-  color: #00bcd4;
-  text-decoration: none;
-}
-
-.contact-info a:hover {
-  text-decoration: underline;
-}
-
-@media (max-width: 768px) {
-  .heading {
-    font-size: 2rem;
-  }
-
-  .contact-info {
-    width: 90%;
-    padding: 20px;
-  }
-}
