@@ -6,7 +6,7 @@ import Navbar from "./Navbar";
 function Contact() {
   return (
     <div className="contact-container"> 
-      <h1 className="heading">Contact</h1>
+      <h1 className="contact-heading">Contact</h1>
       <Navbar activeMenu="/contact"/>
 
     </div>
