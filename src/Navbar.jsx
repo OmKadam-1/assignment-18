@@ -1,11 +1,12 @@
 import "./Navbar.css";
+import { Link } from "react-router";
 
-function Navbar({activeMenu}) {
+function Navbar({ activeMenu }) {
   return (
     <div className="navbar">
-        <a href="/" className={`menu ${activeMenu === "/" ? "menu-active" : ""}`}>Home</a>
-        <a href="/about" className={`menu ${activeMenu === "/about" ? "menu-active" : ""}` }>About</a>
-        <a href="/contact" className={`menu ${activeMenu === "/contact" ? "menu-active" : ""}`}>Contact</a>
+      <Link to="/" className={`menu ${activeMenu === "/" ? "menu-active" : ""}`}>Home</Link>
+      <Link to="/about" className={`menu ${activeMenu === "/about" ? "menu-active" : ""}`}>About</Link>
+      <Link to="/contact" className={`menu ${activeMenu === "/contact" ? "menu-active" : ""}`}>Contact</Link>
     </div>
   )
 }
